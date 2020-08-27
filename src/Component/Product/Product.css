@@ -1,0 +1,47 @@
+.main-product {
+  display: flex;
+}
+
+/* .left-side h3 {
+  border: 1px solid rgb(1, 100, 109);
+  background-color: rgb(140, 228, 240);
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  font-size: 30px;
+} */
+
+.left-side img {
+  width: 250px;
+  height: 240px;
+  margin-top: 25px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
+
+.right-side {
+  border-bottom: 1px solid rgb(140, 228, 240);
+  width: 90%;
+
+  /* background-color: rgb(0, 193, 252); */
+  padding: 20px;
+  text-align: left;
+}
+
+.main-btn {
+  height: 35px;
+  width: 120px;
+  border-color: navajowhite;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgba(14, 237, 253, 0.986);
+  cursor: pointer;
+  padding-left: 5px;
+}
+.main-btn:hover {
+  background-color: orange;
+}
